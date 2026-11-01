@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: rgb(57, 57, 133);
+    height: 85px;
+}
+.header,
+.content,
+.footer{
+    padding: 0 20vh;
+}
+.header-left{
+    padding-top: 25px;
+    width: 50%;
+    float: left;
+}
+.header-left h1{
+    margin: 0px;
+    /* text-align: center; */
+    
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    font-family:Arial, Helvetica;
+}
+.header-right{
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+}
+.form{
+    width: 100%;
+    color: white;
+}
+.left-input,.right-input,.login{
+    float: left;
+    padding: 10px;
+}
+.left-input input,.right-input input,.login input{
+    border: 0;
+}
+.right-input p{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.406);
+}
+.login{
+    padding-top: 28px;
+}
+.login input[type="submit"]{
+    background-color: transparent;
+    border: 1px solid black ;
+    color: white;
+}
+.content-left,.content-right{
+    width: 50%;
+    float: left;
+}
+.content-left img{
+    width: stretch;
+    padding: 5px;
+}
+.para-div{
+    padding-top: 6vh;
+}
+.para-div p{
+    font-size: large;
+    color:  rgb(57, 57, 133);
+    font-weight: bold;
+}
+.content-right .p1{
+    font-size: large;
+}
+.content-right input{
+    padding: 5px;
+    margin:5px 5px 5px 0;
+    color: rgba(0, 0, 0, 0.587);
+}
+.inline-input{
+    width: 300px;
+}
+.date-div,.bd-div{
+    width: 100%;
+}
+.date-div #day{
+    width: 45px;
+}
+.date-div #month{
+    width: 60px;
+}
+.date-div p{
+    display: inline;
+    font-size: small;
+}
+.date-div p a,
+.p-termsdata a,
+.create-page a{
+    text-decoration: none;
+    color: rgb(137, 162, 251);
+}
+label{
+    font-weight: bold;
+}
+.radio-div input{
+    margin: 0px !important;
+}
+.bd-div p{
+    margin-inline-start: 67vh;
+}
+.bd-div p,
+.p1,
+.create-page{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.p-termsdata{
+    font-size: small;
+    line-height: 1.5em;
+}
+.radio-div{
+    padding-top: 4vh;
+}
+.submit-input{
+    background-color: rgb(50, 205, 89);
+    border: none;
+    border-radius: 3px;
+    width: 23%;
+    height: 33px;
+    color: white !important;
+    font-weight: 500;
+    font-size: medium;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    margin-block-start: 0em;
+    margin-block-end: 0.5em;
+}
+.footer a{
+    text-decoration: none;
+}
